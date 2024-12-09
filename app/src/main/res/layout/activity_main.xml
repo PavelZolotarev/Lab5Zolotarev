@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/journalIdInput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:hint="ID журнала"
+        android:textSize="16dp"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/downloadButton"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:text="Загрузить"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/journalIdInput" />
+
+    <Button
+        android:id="@+id/viewButton"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="12dp"
+        android:enabled="false"
+        android:text="Смотреть"
+        app:layout_constraintEnd_toEndOf="@+id/downloadButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/downloadButton"
+        app:layout_constraintTop_toBottomOf="@+id/downloadButton" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="12dp"
+        android:enabled="false"
+        android:text="Удалить"
+        app:layout_constraintEnd_toEndOf="@+id/viewButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/viewButton"
+        app:layout_constraintTop_toBottomOf="@+id/viewButton" />
+
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="0dp"
+        android:textSize="24dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Введите ID журнала чтобы его посмотреть"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/deleteButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
