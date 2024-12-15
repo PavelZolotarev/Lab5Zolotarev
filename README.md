@@ -4,8 +4,10 @@
 ### Запустить виртуальное устройство. Выбрать приложение Lab5Mobile из списка приложений на устройстве.
 # Демонстрация работы
 ### Activity
-![Activity](https://github.com/user-attachments/assets/5b9bbddb-a604-4186-b491-32520d07a8f0)
+![image](https://github.com/user-attachments/assets/7917dc8b-9ea4-4a77-9958-494794eed4c4)
+
 
 ### Открытый PDF файл журнала
-![PDF файл](https://github.com/user-attachments/assets/91f1ffd7-3e22-4294-8396-1eab838665c9)
+![image](https://github.com/user-attachments/assets/0e327bb7-abbb-4d2d-a386-a8889db59e93)
+
 
